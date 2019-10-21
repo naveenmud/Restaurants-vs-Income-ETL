@@ -1,1 +1,3 @@
-# etl_project_2_group
+We wanted to compare fast food restaurants with average incomes to see if there were any interesting relationships. The csv data from data.world contains over 10,000 fast food restaurants and includes the restaurant’s address, city, latitude/longitude coordinates, name, and more. The second csv dataset from Kaggle contains records on US Household Income Statistics & Geo Locations.
+
+We wanted to see if there was any relationship between the number of fast food restaurants and the average income in particular areas (proxied by zip codes). The datasets were cleaned by renaming and excluding columns that were not pertinent. The datasets were then joined together on corresponding information. It was then loaded into a PostgreSQL database.
